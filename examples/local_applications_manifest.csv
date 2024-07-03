@@ -1,0 +1,2 @@
+﻿application_name,description,support_email,support_phone,developer_name,developer_email,developer_phone,enable_provisioning,actual_file_version,app_uem_version,file_path,file_name,supported_processor_architecture,install_context,silent_install_switch,disk_space_required_in_kb,device_power_required,ram_required_in_mb,cpu_usage,install_with_admin_privileges
+My Enterprise App,Helps my business save money by adding numbers correctly,support@company.com,12345,Codie McCoder,dev@company.com,12345,TRUE,1.2.3.4,1.2.3.4,C:\Temp\,EntAppInstaller.msi,x64,1,/S,10240,10,50,0,TRUE
