@@ -1,6 +1,3 @@
----
-youtubeId: pTKX90XcOqk
----
 # Fetch
 
 Fetch is a Windows application that allows Workspace ONE Administrators rapidly deploy native Windows Applications. Previously, the process to make applications available on managed devices was complex and time consuming.
