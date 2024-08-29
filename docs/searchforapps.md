@@ -1,8 +1,8 @@
 ---
 layout: page
+title: Usage
+subtitle: Searching For Applications
 ---
-
-## Searching Applications
 
 The simplest way to test Fetch is to use the Search Applications functionality.
 

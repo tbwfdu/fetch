@@ -1,10 +1,10 @@
 ---
 layout: page
+title: Usage
+subtitle: Checking for Existing Application Updates
 ---
 
-## Checking for UEM Application Updates
-
-This workflow is straightforward. It will query Workspace ONE UEM and return results that have updated versions in the database.
+This workflow is quite straightforward. It will query Workspace ONE UEM and return matched results that have updated application versions.
 
 ![Alt text](../images/image7.png?raw=true "Image")
 
