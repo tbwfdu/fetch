@@ -90,6 +90,7 @@ DEPENDENCIES
   beautiful-jekyll-theme!
   bundler (>= 1.16)
   rake (~> 12.0)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.3.26
