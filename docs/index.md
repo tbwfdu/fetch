@@ -11,15 +11,15 @@ Fetch solves these problems by allowing Administrators to **automatically downlo
 
 ## 🎬 Fetch Overview and Walkthrough Video
 <div class="embed-container">
-    <video muted controls width="100%" height="auto" poster="/images/poster.png">
-        <source src="/images/Overview.mp4" type="video/mp4" >
+    <video muted controls width="100%" height="auto" poster="images/poster.png">
+        <source src="images/Overview.mp4" type="video/mp4" >
     </video>
 </div>
 
 Currently, the Fetch database has **over 6000+ unique applications** with a combined count of **50,000+ application versions**.
 
 
-![Alt text](../images/image1.png "Image")
+![Alt text](images/image1.png "Image")
 
 
 There are 4 main workflows that an Administrator can utilise with Fetch:
