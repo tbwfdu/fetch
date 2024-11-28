@@ -25,13 +25,11 @@ By default, the results list only shows Exact or Partial Matches. You can change
 
 ![Alt text](../images/image6.png?raw=true "Image")
 
-:information_source:
-
-Once you have added an application to the queue, you can right-click on the Application entry and either remove it from the queued items or edit the default Configuration Parameters used to create the application in the Workspace ONE Catalog.
+ℹ️ Once you have added an application to the queue, you can right-click on the Application entry and either remove it from the queued items or edit the default Configuration Parameters used to create the application in the Workspace ONE Catalog.
 
 When editing the application configuration, you can edit the available options by clicking the edit button next to the entry.
 
 **_NOTE:_**
 
-:chart_with_upwards_trend: **Scalability:** Fetch has been tested by importing and processing application inventories of up to 5000 applications.
+📈 **Scalability:** Fetch has been tested by importing and processing application inventories of up to 5000 applications.
 
