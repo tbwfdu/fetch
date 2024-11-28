@@ -8,7 +8,7 @@ subtitle: Initial Configuration
 
 Upon first time run, you will need to enter the following settings.
 
-:new: Fetch now supports up to two Workspace ONE UEM Environments. Once you've added the first environment, you can add another from the `+` button in the tab menu.
+🆕 Fetch now supports up to two Workspace ONE UEM Environments. Once you've added the first environment, you can add another from the `+` button in the tab menu.
 
  
 ![Alt text](../images/image2.png "Image")
