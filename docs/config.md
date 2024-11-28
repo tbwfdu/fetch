@@ -32,5 +32,5 @@ Upon saving, the Org Group ID and Org Group Uuid will be obtained from the UEM e
 
 **_IMPORTANT:_** 
 
-:closed_lock_with_key: Fetch will save the Client ID and Client Secret as a fully encrypted string in the above settings file and can only be decrypted by the user account that entered the credentials. 
+🔐 Fetch will save the Client ID and Client Secret as a fully encrypted string in the above settings file and can only be decrypted by the user account that entered the credentials. 
 
