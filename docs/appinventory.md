@@ -10,7 +10,7 @@ You can upload an existing application inventory report in **.csv** format with 
 
 Fetch will then process this file and give you the results of what it has in its database vs. the report.
 
-:information_source: The results will load _incrementally_ when scrolling to the last item in the current view.
+ℹ️ The results will load _incrementally_ when scrolling to the last item in the current view.
 
 
 📋 [Click here](../examples/example_intelligence_apps_report.csv) for an Example Report from Workspace ONE Intelligence. 
