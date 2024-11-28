@@ -8,6 +8,8 @@ subtitle: Initial Configuration
 
 Upon first time run, you will need to enter the following settings.
 
+:new: Fetch now supports up to two Workspace ONE UEM Environments. Once you've added the first environment, you can add another from the `+` button in the tab menu.
+
  
 ![Alt text](../images/image2.png "Image")
 
@@ -21,10 +23,14 @@ Upon first time run, you will need to enter the following settings.
 |File Download Path		|Enter a location where the downloaded installers should to be saved to (eg. C:\temp\Downloads)|Installers will stay here until they are manually deleted|
 
 **_NOTE:_** 
-No trailing slashes on any of the URLs or filepaths as per examples. OAuth environments will eventually be a selection box._
+
+These settings are currently saved in `C:\Users\{your_username}\AppData\Local\Fetch\ApplicationData\LocalSettings.json`
+
+No trailing slashes on any of the URLs or file paths as per examples.
 Upon saving, the Org Group ID and Org Group Uuid will be obtained from the UEM environment.
 
 
 **_IMPORTANT:_** 
-These settings are currently saved in `C:\Users\{your_username}\AppData\Local\Fetch\ApplicationData\LocalSettings.json`
-**Ensure security of this file**. Later versions of Fetch will save these secrets to the registry using Windows’s Data Protection APIs.
+
+:closed_lock_with_key: Fetch will save the Client ID and Client Secret as a fully encrypted string in the above settings file and can only be decrypted by the user account that entered the credentials. 
+

@@ -26,6 +26,7 @@ navbar-links:
     - Importing an App Inventory: "appinventory"
     - Check for UEM App Updates: "appupdates"
     - Uploading Local Apps: "localapps"
+    - Scan Folder: "scanfolder"
   Download: "https://github.com/tbwfdu/fetch/releases"
   FAQs: "faq"
 

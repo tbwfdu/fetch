@@ -22,7 +22,7 @@ Currently, the Fetch database has **over 6000+ unique applications** with a comb
 ![Alt text](images/image1.png "Image")
 
 
-There are 4 main workflows that an Administrator can utilise with Fetch:
+There are currently 6 main workflows that an Administrator can utilise with Fetch:
 
 1. **Search for an Application** by name and **automatically create** its corresponding Native App in Workspace ONE UEM.  
 
@@ -31,3 +31,7 @@ There are 4 main workflows that an Administrator can utilise with Fetch:
 3. **Interrogate their existing Workspace ONE UEM** environment’s Applications and **report if there are known updated versions available** allow the Administrator to **automatically upload and create an updated version** of the Application.  
 
 4. **Upload a manifest (template)** of existing Native Windows Applications used in the Organization which they have **their own installation files** available for. This workflow allows an Administrator to quickly fill out the template with the required metadata about the Application and point to existing installers on their device. Once the manifest is processed, Fetch can then **upload the installers from the filesystem and create the apps in UEM** using the metadata provided in the manifest.
+
+5. **Download Only Mode** enables Administrators complete any of the first 3 workflows to download the installers to a repository to enable additional testing or vulnerability scanning before uploading to UEM.
+
+6. **Scan Folder Recursively** for previously downloaded installers and complete the upload process into Workspace ONE UEM.

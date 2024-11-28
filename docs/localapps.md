@@ -16,6 +16,14 @@ Here is an example of the contents of the manifest template:
 
 These columns correlate to the metadata required by the Workspace ONE Application API/Console.
 
+There is also now additional options in the manifest templates that allows you to change _any_ or _all_ of the available configuration options that are available in the UEM Console UI. This means you can enter all the custom information needed to deploy and install the application directly in the manifest.
+
+The manifest template is now saved as a `.xslx` file, and where there are multiple choice options for configuration settings, they are shown in a dropdown inside this spreadsheet allowing simpler and more accurate manifests.
+
+**_IMPORTANT:_** You need to ensure you still **save as or export** your manifest as a `.csv` file.
+
+
+
 📋 [Click here](../examples/local_applications_manifest.csv) for an Example Local Applications Manifest for you to enter the relevant data in to.
 
 Alternatively view the 🎬 [Overview Video](/) to see more detail.
