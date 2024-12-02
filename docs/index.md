@@ -1,25 +1,26 @@
 ---
+title: Home
 layout: home
-title: Fetch
-subtitle: Windows App Lifecycle Tool for Workspace ONE
+nav_order: 1
 ---
+## Fetch
 
 Fetch is a Windows application that allows Workspace ONE Administrators rapidly deploy native Windows Applications. Previously, the process to make applications available on managed devices was complex and time consuming.
 
 Fetch solves these problems by allowing Administrators to **automatically download** the installers, **upload the binaries to Workspace ONE UEM** and **create the related Native Windows Application** entry in the environment with all the required information for it to **install and uninstall** on end user devices.
 
 
-## 🎬 Fetch Overview and Walkthrough Video
+### 🎬 Fetch Overview and Walkthrough Video
 <div class="embed-container">
-    <video muted controls width="100%" height="auto" poster="images/poster.png">
-        <source src="images/Overview.mp4" type="video/mp4" >
+    <video muted controls width="100%" height="auto" poster="/assets/images/poster.png">
+        <source src="/assets/images/Overview.mp4" type="video/mp4" >
     </video>
 </div>
 
-Currently, the Fetch database has **over 6000+ unique applications** with a combined count of **50,000+ application versions**.
+Currently, the Fetch database has **over 7000+ unique applications** with a combined count of **50,000+ application versions**.
 
 
-![Alt text](images/image1.png "Image")
+![Alt text](/assets/images/image1.png "Image")
 
 
 There are currently 6 main workflows that an Administrator can utilise with Fetch:
