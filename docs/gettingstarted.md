@@ -13,7 +13,7 @@ Fetch now supports up to two Workspace ONE UEM Environments. Once you've added t
 When you run Fetch for the first time you will need to enter the following settings.
 
  
-![Alt text](/assets/images/image2.png "Image")
+![Alt text](/fetch/assets/images/image2.png "Image")
 
 
 | Setting               | Description                                                                                            | Notes                                                                                                                                        |

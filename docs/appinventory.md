@@ -17,7 +17,7 @@ Fetch will then process this file and give you the results of what it has in its
 
 Alternatively view the [Overview Video](/) to see more detail.
 
-![Alt text](/assets/images/image5.png?raw=true "Image")
+![Alt text](/fetch/assets/images/image5.png?raw=true "Image")
 
 {: .note-title }
 > Note
@@ -29,7 +29,7 @@ An *“Exact Match”* is where Fetch has matched the App Name with the exact sa
 
 By default, the results list only shows Exact or Partial Matches. You can change the Filter to  show all results (include No Match) and if you want you can remove a result from the list using the `x` icon. On a *Partial* or *Exact Match* result, you can click the “**+**” icon and add the Application to the Upload Queue if desired.
 
-![Alt text](/assets/images/image6.png?raw=true "Image")
+![Alt text](/fetch/assets/images/image6.png?raw=true "Image")
 
 {: .note-title }
 > Notes

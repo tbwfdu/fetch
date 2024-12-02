@@ -8,7 +8,7 @@ parent: Using Fetch
 
 The simplest way to use Fetch is to use the Search Applications functionality.
 
-![Alt text](/assets/images/image3.png?raw=true "Image")
+![Alt text](/fetch/assets/images/image3.png?raw=true "Image")
 
 Upon searching and finding a result, an Administrator can see details provided by the Software Vendor about the application, choose the version, architecture and filetype (if multiple exist) and then add it to the upload queue.
 
@@ -25,7 +25,7 @@ Upon searching and finding a result, an Administrator can see details provided b
 ## Queuing Multiple Applications
 You can queue multiple applications from each page and have them upload sequentially.
 
-![Alt text](/assets/images/image4.png?raw=true "Image")
+![Alt text](/fetch/assets/images/image4.png?raw=true "Image")
 
 ## Editing Application Parameters
 

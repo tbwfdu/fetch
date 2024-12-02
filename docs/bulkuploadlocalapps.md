@@ -11,11 +11,11 @@ This process allows you to do a **bulk upload** of your Enterprise Applications 
 
 The main aspect of this process is that you specify a **local file path** (that the Fetch Application can access) of the installers you want to upload to UEM, along with all the required metadata that is needed to add the Application to the App Catalog. This workflow does not use any of the metadata within the Fetch Database.
 
-![Alt text](/assets/images/image8.png?raw=true "Image")
+![Alt text](/fetch/assets/images/image8.png?raw=true "Image")
 
 Here is an example of the contents of the manifest template:
 
-![Alt text](/assets/images/image9.png?raw=true "Image")
+![Alt text](/fetch/assets/images/image9.png?raw=true "Image")
 
 These columns correlate to the metadata required by the Workspace ONE Application API/Console.
 
