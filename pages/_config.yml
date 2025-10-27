@@ -1,41 +1,19 @@
 #page title
-page_title                                : Fetch                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
-
-# App Info
-ios_app_id                                :                                           # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           :                                           # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
-github_link                               : https://github.com/tbwfdu/fetch/releases  # Enter link to GitHub repository.
-presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
-
+page_title                                : Fetch                                     # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+github_link                               : https://github.com/tbwfdu/fetch/releases  # Enter link to GitHub repository. 
 app_icon                                  : assets/fetch.png                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+dbl_icon                                  : assets/dbl.png                            # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Fetch                                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 : Free                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_os                                    : windows                                   # Enter supported OS platforms - windows or apple
 app_description                           : Workspace ONE Application Management Tool
-
-enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
-
-
+app_os_title                              : Windows
 
 # Information About Yourself
 your_name                                 : Pete Lindley                                
 your_link                                 : https://github.com/tbwfdu                     
 your_city                                 : Down Under, Australia                                
 email_address                             : thisispete@gmail.com
-linkedin_username                         :                                           
-linkedin_company                          :                                           
-facebook_username                         :                                           
-instagram_username                        : 
-twitter_username                          : 
 github_username                           : tbwfdu
-youtube_username                          :
-mastodon_link                             : 
-
-
 
 # Feature List
 features                                  :
@@ -63,8 +41,6 @@ features                                  :
   - title                                 : Upload your Existing Apps
     description                           : Use Juice to scan an existing folder of your previously downloaded or internally packaged/developed applications and automatically upload them to Workspace ONE in bulk.
     fontawesome_icon_name                 : list
-
-
 
 # Theme Settings
 topbar_color                              : "#000000"
@@ -95,20 +71,9 @@ social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
 windows_icon_color                        : "#0078D4"
+apple_icon_color                          : "#666666"
 
 footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
-
-
-
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###

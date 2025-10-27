@@ -155,6 +155,45 @@ header {
 	clip-path: url(#shape);
 }
 
+.dblHeaderIcon {
+  width: auto;
+  height: 40px;
+  clip-path: url(#shape);
+}
+
+.dblAllAppsRow {
+  //flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  //flex-wrap: wrap;
+}
+
+
+.dblAllAppsColumn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* stack children as rows */
+  gap: 4px;              /* space between rows */
+}
+
+.dblAllAppsColumn > a:link,
+.dblAllAppsColumn > a:visited {
+  font-size: small;
+  text-decoration: none;
+  color: rgba($header-title-color, 0.6);
+}
+
+.dblAllAppsColumn > a:hover,
+.dblAllAppsColumn > a:active {
+  font-size: small;
+  text-decoration: none;
+  color: rgba($header-title-color, 1);
+}
+
+
+
+
 @media only screen and (max-width: 768px) {
 
 	.divider {
@@ -555,6 +594,11 @@ nav > ul li a:active {
 .windowsIcon {
 	color: $windows-icon-color;
 }
+
+.appleIcon {
+  color: $apple-icon-color;
+}
+
 
 .appOSDetails {
   display: flex;
