@@ -7,9 +7,9 @@ You can upload an existing application inventory report in **.csv** format with 
 
 Fetch will then process this file and give you the results of what it has in its database vs. the report.
 
-[See here](/assets/examples/example_intelligence_apps_report.csv) for an Example Report from Workspace ONE Intelligence.
+[See here](assets/examples/example_intelligence_apps_report.csv) for an Example Report from Workspace ONE Intelligence.
 
-![Alt text](/assets/images/App_Inventory.png "App Inventory Screenshot")
+![Alt text](assets/images/App_Inventory.png "App Inventory Screenshot")
 
 >### ℹ️ Note
 >{: .no_toc }
