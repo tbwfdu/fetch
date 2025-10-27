@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title class="pageTitle"></title>
+	<meta name="description" content="Workspace ONE Application Management Tool">
+
+	<link rel="shortcut icon" href="/assets/fetch.png">
+
+	<!-- Smart App Banner -->
+	
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="/main.css">
+</head>
+
+<body class="subPageBody">
+    <div class="headerBackground subPageHeaderBackground">
+        <div class="subContainer subPageContainer">
+        <header>
+	<div class="logo">
+		<div class="appIconShadow">
+<!--			<svg width="0" height="0">
+				<defs>
+					<clipPath id="shape">
+							<path id="shape" class="cls-1" d="M6181.23,233.709v-1.792c0-.5-0.02-1-0.02-1.523a24.257,24.257,0,0,0-.28-3.3,11.207,11.207,0,0,0-1.04-3.132,10.683,10.683,0,0,0-1.95-2.679,10.384,10.384,0,0,0-2.68-1.943,10.806,10.806,0,0,0-3.13-1.038,19.588,19.588,0,0,0-3.3-.285c-0.5-.017-1-0.017-1.52-0.017h-22.39c-0.51,0-1.01.017-1.53,0.017a24.041,24.041,0,0,0-3.3.285,11.009,11.009,0,0,0-3.13,1.038,10.491,10.491,0,0,0-4.62,4.622,10.893,10.893,0,0,0-1.04,3.132,19.2,19.2,0,0,0-.28,3.3c-0.02.5-.02,1-0.02,1.523v22.392c0,0.5.02,1,.02,1.524a24.257,24.257,0,0,0,.28,3.3,10.9,10.9,0,0,0,1.04,3.132,10.491,10.491,0,0,0,4.62,4.622,11.04,11.04,0,0,0,3.13,1.038,19.891,19.891,0,0,0,3.3.285c0.51,0.017,1.01.017,1.53,0.017h22.39c0.5,0,1-.017,1.52-0.017a24.221,24.221,0,0,0,3.3-.285,10.836,10.836,0,0,0,3.13-1.038,10.408,10.408,0,0,0,2.68-1.943,10.683,10.683,0,0,0,1.95-2.679,11.217,11.217,0,0,0,1.04-3.132,20.257,20.257,0,0,0,.28-3.3c0.02-.5.02-1,0.02-1.524v-20.6h0Z" transform="translate(-6131 -218)"/>
+					</clipPath>
+				</defs>
+			</svg>-->
+			
+				<a href="../" target="_self"><img class="headerIcon" src="/assets/fetch.png"></a>
+			
+			<div class="divider"></div>
+		</div>
+		<p class="headerName">Fetch</p>
+	</div>
+	<nav class="scroll">
+		<ul>
+            
+			
+				
+				<li><a href="/gettingstarted/" target="_self">Getting Started</a></li>
+				
+			
+				
+				<li><a href="/usage/" target="_self">Usage</a></li>
+				
+			
+				
+				<li><a href="/faq/" target="_self">FAQs</a></li>
+				
+			
+			
+		</ul>
+	</nav>
+<!--    <nav aria-label="Secondary navigation" class="dropdown-nav nav-layout">
+        <ul>
+            <li class="dropdown">
+                <span class="dropbtn">More</span>
+                <ul class="dropdown-menu">
+                    <li><a href="/appinventory/">App Inventory</a></li>
+                    <li><a href="/gettingstarted/">Getting Started</a></li>
+                    <li><a href="/usage/">Usage</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>-->
+</header>
+            <article class="page markdown-body">
+                <h1 id="getting-started">Getting Started</h1>
+
+<h3 id="required-settings">Required Settings</h3>
+
+<p>When you run Fetch for the first time, you will need to enter the following settings.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Setting</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Friendly Name</td>
+      <td style="text-align: left">Any text based value you wish to help identify the environment</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Console URL</td>
+      <td style="text-align: left">Your UEM environment API Server <br /> (eg. <code class="language-plaintext highlighter-rouge">https://as1234.awmdm.com</code>)</td>
+      <td style="text-align: left">Ensure you use <em><code class="language-plaintext highlighter-rouge">asXXXX</code></em> not <em><code class="language-plaintext highlighter-rouge">cn</code></em> or <em><code class="language-plaintext highlighter-rouge">ds</code></em></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Client ID</td>
+      <td style="text-align: left">An OAuth Client ID generated from the UEM Console</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Client Secret</td>
+      <td style="text-align: left">An OAuth Client Secret generated from the UEM Console</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">OAuth Environment URL</td>
+      <td style="text-align: left">Your region’s OAuth Authentication Environment</td>
+      <td style="text-align: left">Find yours <a href="https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/2209/UEM_ConsoleBasics/GUID-BF20C949-5065-4DCF-889D-1E0151016B5A.html">here</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">File Download Path</td>
+      <td style="text-align: left">Enter a location where the downloaded installers should to be saved to <br /> (eg. <code class="language-plaintext highlighter-rouge">C:\temp\Downloads</code>)</td>
+      <td style="text-align: left">Installers will stay here until they are manually deleted</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <h3 id="ℹ️-notes">ℹ️ Notes</h3>
+  <ul>
+    <li>
+      <p>Application Configuration is saved to: <br />
+<code class="language-plaintext highlighter-rouge">C:\Users\{your_username}\AppData\Local\Fetch\ApplicationData\LocalSettings.json</code></p>
+    </li>
+    <li>
+      <p>Org Group Name, Org Group ID and Org Group UUID will be retrieved automatically from Workspace ONE during validation of the settings entered above.</p>
+    </li>
+    <li>
+      <p>No trailing slashes on any of the URLs or file paths as per examples.</p>
+    </li>
+    <li>
+      <p>Upon saving, the Org Group ID and Org Group Uuid will be obtained from the UEM environment.</p>
+    </li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <h3 id="️-important">⚠️ IMPORTANT</h3>
+
+  <p>Fetch <strong>encrypts</strong> the entered Client ID and Client Secret before saving the value as an encrypted Base64 string to the Application Configuration file.</p>
+
+  <p>These credentials can <strong>only</strong> be decrypted by the <em>same user</em> on the <em>same machine</em> in which they were entered and saved on.</p>
+</blockquote>
+
+
+            </article>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+    </div>
+</body>
+
+</html>
