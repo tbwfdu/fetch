@@ -7,9 +7,9 @@ You can upload an existing application inventory report in **.csv** format with 
 
 Fetch will then process this file and give you the results of what it has in its database vs. the report.
 
-[See here](assets/examples/example_intelligence_apps_report.csv) for an Example Report from Workspace ONE Intelligence.
+[See here](../assets/examples/example_intelligence_apps_report.csv) for an Example Report from Workspace ONE Intelligence.
 
-![Alt text](assets/images/App_Inventory.png "App Inventory Screenshot")
+![Alt text](../assets/images/App_Inventory.png "App Inventory Screenshot")
 
 >### ℹ️ Note
 >{: .no_toc }
@@ -21,7 +21,7 @@ An *“Exact Match”* is where Fetch has matched the App Name with the exact sa
 
 By default, the results list only shows Exact or Partial Matches. You can change the Filter to  show all results (include No Match) and if you want you can remove a result from the list using the `x` icon. On a *Partial* or *Exact Match* result, you can click the “**+**” icon and add the Application to the Upload Queue if desired.
 
-![Alt text](/assets/images/Review_Match.png "Review Match Screenshot")
+![Alt text](../assets/images/Review_Match.png "Review Match Screenshot")
 
 
 >### ℹ️ Note
