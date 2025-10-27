@@ -2,7 +2,7 @@
 
 The simplest way to use Fetch is to use the Search Applications functionality.
 
-![Alt text](/assets/images/Search_Applications.png "Search for Applications")
+![Alt text](../assets/images/Search_Applications.png "Search for Applications")
 
 Upon searching and finding a result, an Administrator can see details provided by the Software Vendor about the application, choose the version, architecture and filetype (if multiple exist) and then add it to the upload queue.
 
@@ -22,13 +22,13 @@ Upon searching and finding a result, an Administrator can see details provided b
 ## Queuing Multiple Applications
 You can queue multiple applications from each page and have them upload sequentially.
 
-![Alt text](/assets/images/Queued_Applications.png "Queued Application Screenshot")
+![Alt text](../assets/images/Queued_Applications.png "Queued Application Screenshot")
 
 ## Editing Application Parameters
 
 Once you have added an application to the queue, you can right-click on the Application entry and either remove it from the queued items or edit the default Configuration Parameters used to create the application in the Workspace ONE Catalog.
 
-![Alt text](/assets/images/Edit_App_Config.png "Edit Application Configuration Screenshot")
+![Alt text](../assets/images/Edit_App_Config.png "Edit Application Configuration Screenshot")
 
 >### ℹ️ Notes
 > {: .no_toc }
@@ -39,7 +39,7 @@ Once you have added an application to the queue, you can right-click on the Appl
 
 When you have queued your applications, you can select either 'Download Only' or 'Upload to UEM' to process the queue. Download Only mode will _only_ download the installers allowing you to scan or process them later. Upload to UEM will download the application install and automatically upload and create the application in the Workspace ONE UEM Application Catalog.
 
-![Alt text](/assets/images/Uploading.png "Uploading Application Screenshot")
+![Alt text](../assets/images/Uploading.png "Uploading Application Screenshot")
 
 >### ℹ️ Notes
 > {: .no_toc }

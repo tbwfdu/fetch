@@ -2,7 +2,7 @@
 
 This workflow allows you to identify which of your **existing** managed applications in your Workspace ONE Applications have updates available. Fetch queries your Workspace ONE UEM environment and attempts to match applications using the "App Name" configured in UEM. If Fetch can match the application it will query the database for updated application versions.
 
-![Alt text](/assets/images/App_Updates.png "Application Updates Screenshot")
+![Alt text](../assets/images/App_Updates.png "Application Updates Screenshot")
 
 From here the Administrator can review (by pressing the `+`) and add any updates to the queue. The 'Review Results` dialog will select the _next latest_ version in the version list by default. 
 

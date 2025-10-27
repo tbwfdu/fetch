@@ -5,17 +5,17 @@ This process allows you to do a **bulk upload** of your Enterprise Applications 
 
 The main aspect of this process is that you specify a **local file path** (that the Fetch Application can access) of the installers you want to upload to UEM, along with all the required metadata that is needed to add the Application to the App Catalog. This workflow does not use any of the metadata within the Fetch Database.
 
-![Alt text](/assets/images/Upload_Manifest.png "Bulk Upload of Local Apps Screenshot")
+![Alt text](../assets/images/Upload_Manifest.png "Bulk Upload of Local Apps Screenshot")
 
 Here is an example of the contents of the manifest template:
 
-![Alt text](/assets/images/image9.png?raw=true "Image")
+![Alt text](../assets/images/image9.png?raw=true "Image")
 
 These columns correlate to the metadata required by the Workspace ONE Application API/Console.
 
 > There are additional options in the manifest templates that allow you to change _any_ or _all_ of the available configuration options that are available in the UEM Console UI. This means you can enter all the custom information needed to deploy and install the application directly in the manifest.
 
-The [manifest template](/assets/examples/local_applications_manifest_template.xlsx) is now saved as a `.xslx` file, and where there are multiple choice options for configuration settings, they are shown in a dropdown inside this spreadsheet allowing simpler and more accurate manifests.
+The [manifest template](../assets/examples/local_applications_manifest_template.xlsx) is now saved as a `.xslx` file, and where there are multiple choice options for configuration settings, they are shown in a dropdown inside this spreadsheet allowing simpler and more accurate manifests.
 
 >### ℹ️ Important
 >{: .no_toc }
@@ -23,6 +23,6 @@ The [manifest template](/assets/examples/local_applications_manifest_template.xl
 > You need to ensure you still **save as** or **export** your manifest as a `.csv` file.
 
 
-[See here](/assets/examples/local_applications_manifest.csv) for an Example Local Applications Manifest for you to enter the relevant data in to.
+[See here](../assets/examples/local_applications_manifest.csv) for an Example Local Applications Manifest for you to enter the relevant data in to.
 
 <br>

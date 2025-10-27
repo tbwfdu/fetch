@@ -6,7 +6,7 @@ To complete the upload of these applications once downloaded, you can go to the 
 
 This will then scan the selected folder **recursively** and import the application (and its metadata) into Fetch ready to be uploaded to Workspace ONE UEM.
 
-![Alt text](/assets/images/Scan_Filesystem.png "Scanned Folder Screenshot")
+![Alt text](../assets/images/Scan_Filesystem.png "Scanned Folder Screenshot")
 
 >### ℹ️ Important
 >{: .no_toc }
