@@ -166,7 +166,6 @@ else {
 powershell.exe -ExecutionPolicy Bypass -File Uninstall.ps1 "7-Zip" "19.00.00.0"
 ```
 
-{: .note-title }
 > Note
 >
 > These Powershell files are embedded into the Application. Fetch automatically populates the App Name/Version variables so the commands for verifying a successful install/uninstall (the parameters of the script) so these are shown here for completeness.
